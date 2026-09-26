@@ -40,7 +40,7 @@ requirements:
   host:
     - nodejs
   run:
-    - nodejs >=22
+    - nodejs
     - python
     - uv
 
