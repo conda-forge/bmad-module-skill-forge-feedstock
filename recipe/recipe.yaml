@@ -13,7 +13,7 @@ source:
   sha256: 05fbffc1075f81043021ce41e7a469f0aac15c7a530081eb68a3ff92b9914be8
 
 build:
-  number: 0
+  number: 1
   script:
     - if: unix
       then:
@@ -34,11 +34,11 @@ build:
 
 requirements:
   build:
-    - nodejs >=22
+    - nodejs
     - pnpm
     - pnpm-licenses
   host:
-    - nodejs >=22
+    - nodejs
   run:
     - nodejs >=22
     - python
