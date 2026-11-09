@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "9.0.0"
+  version: "10.0.0"
 
 package:
   name: bmad-module-skill-forge
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://registry.npmjs.org/bmad-module-skill-forge/-/bmad-module-skill-forge-${{ version }}.tgz
-  sha256: 3ad43e85e3350e86363efce4b18370eee4e6365e89ccab92e5c3030147ace620
+  sha256: 2efb663087d4ef5a73e5a820644324ed7df4110f05d54e6eb44d587fbcb4280c
 
 build:
   number: 0
